@@ -1,7 +1,6 @@
 // Write your helper functions here!
 
-// require('isomorphic-fetch');
-require('cross-fetch/polyfill');
+require('isomorphic-fetch');
 
 function addDestinationInfo(document, name, diameter, star, distance, moons, imageUrl) {
     let div = document.getElementById("missionTarget");
